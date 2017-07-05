@@ -65,7 +65,7 @@ body {
 	letter-spacing: .5px;
 }
 
-.kevin a{
+.kevin a {
 	color: white;
 	text-decoration: none;
 }
@@ -85,14 +85,14 @@ body {
 	outline: none;
 }
 
-.fa-twitter-square{
+.fa-twitter-square {
 	position: absolute;
-	bottom: 10px;
+	bottom: 6px;
 	left: 10px;
-	font-size: 30px;
+	font-size: 49px !important;
 }
 
-#btn:hover{
+#btn:hover {
 	background: #5da38b;
 	border-color: #5da38b
 }

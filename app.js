@@ -83,11 +83,12 @@ var anchorman = [
 var fa = "<i class='fa fa-quote-left' aria-hidden='true''></i>";
 var count;
 document.getElementById('btn').addEventListener("click", function () {
-	count = Math.floor(Math.random() * 20) + 1;
+	count = Math.floor(Math.random() * 20);
+	console.log(count)
 	$('.qt').empty();
 	$('.qt').append("<p class='quotes fade'>" + fa + anchorman[count].quote + "</p><p class='author fade'>- " + anchorman[count].author);;
 })
 
 function tweet() {
-window.open('https://twitter.com/intent/tweet?hashtags= freecodecamp&text='   + encodeURIComponent(anchorman[count].quote));
+	window.open('https://twitter.com/intent/tweet?hashtags= freecodecamp&text=' + encodeURIComponent(anchorman[count].quote));
 }
