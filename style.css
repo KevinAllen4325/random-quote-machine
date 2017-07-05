@@ -65,6 +65,11 @@ body {
 	letter-spacing: .5px;
 }
 
+.kevin a{
+	color: white;
+	text-decoration: none;
+}
+
 #btn {
 	background: #4c997f;
 	border: 3px solid #4c997f;
